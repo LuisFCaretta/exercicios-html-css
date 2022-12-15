@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div {
+	text-align: center;
+}
+.letra {
+	color: white;
+}
+body {
+	background-color: black;
+}

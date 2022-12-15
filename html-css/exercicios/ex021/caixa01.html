@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Modelo de caixas</title>
+		<style>
+		/*
+		Para simplificar margin, border, padding
+		ex.: padding : 10px 10px 10px 10px;
+		seguindo sentido horario topo, direita, baixo, esquerda.
+		use o valor "auto" para centralizar.
+		*/
+			h1 { /* block-level */
+				background-color: lightblue;
+				height: 100px;
+				width: 300px;
+				margin: auto;
+				border-width: 10px;
+				border-style: solid;
+				border-color: darkgray;
+				padding: 10px;
+				text-align: center;
+			}
+			p {
+				background-color: lightblue;
+				border-width: 5px;
+				border-style: solid;
+				border-color: darkgray;
+				padding: 10px;
+				outline-width: 2px;
+				outline-color: lightblue;
+				outline-style: dashed;
+			}
+			a { /* inline-level */
+				background-color: lightgreen;
+				border-width: 3px;
+				border-style: solid;
+				border-color: darkgray;
+				padding: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Exemplo de caixas box-level</h1>
+		<p>Paragrafos tambem sao exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+	</body>
+</html>

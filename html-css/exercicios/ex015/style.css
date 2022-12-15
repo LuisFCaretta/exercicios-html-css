@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+	background-color: #cef3fd;
+	font-size: 20px;
+}
+h1 {
+	color: gray;
+	font-family: Times New Roman;
+	text-align: center;
+}
+h2 {
+	color: darkgray;
+	font-family: Times New Roman;
+	text-align: center;
+}
+p {
+	text-align: justify;
+}

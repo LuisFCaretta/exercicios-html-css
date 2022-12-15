@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* border-radius em 50% cria uma bola */
+
+body {
+	font-family: Arial, Helvetica, Sans-Serif;
+	background-color: dimgray;
+	margin: 0px;
+}
+header {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+}
+header > h1 {
+	text-align: center;
+}
+nav {
+	background-color: gray;
+	padding: 3px;
+	box-shadow: 2px 2px 8px #00000082;
+}
+nav > a {
+	margin-right: 30px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+nav > a:hover {
+	text-decoration: underline;
+}
+main {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px black;
+}
+article {
+	background-color: lightgray;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 8px #00000082;
+}
+article > h2 {
+	text-align: center;
+}
+article > p {
+	text-indent: 30px;
+	text-align: justify;
+}
+article > aside {
+	background-color: #74747460;
+	border-radius: 5px;
+	text-align: center;
+}
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1px;
+	margin: 0px;
+}
+footer > p {
+	margin: 4px;
+}

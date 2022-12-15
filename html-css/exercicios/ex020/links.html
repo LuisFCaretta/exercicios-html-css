@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Links</title>
+		<style>
+		/*
+		SELETORES PERSONALIZADOS:
+			# == id
+			. == class
+			: == pseudo-class
+			:: == pseudo-element
+			> children
+			*/
+			body {
+				font-family: Arial;
+			}
+			h1 {
+				text-align: center;
+				font-family: 'Trebuchet MS';
+				font-size: 2em;
+			}
+			a {
+				color: blue;
+				text-decoration: none;
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+			.especial {
+				background-color: darkgray;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			a:visited {
+				color: darkblue;
+			}
+			a::after {
+				content: ' - [link]';
+				color: lightgray;
+			}
+			.especial::before {
+				color: lightgray;
+				content: '>>>';
+			}
+			.especial::after {
+				content: '<<<';
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Personalizando links</h1>
+		<ul>
+			<li><a href="https://github.com/LuisFCaretta" target="_blank" class="especial">Repositório do Github</a></li>
+			<li><a href="https://www.linkedin.com/in/luisfcaretta" target="_blank">Perfil do LinkedIn</a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=100008007347218" target="_blank">Perfil do Facebook</a></li>
+		</ul>
+	</body>
+</html>
