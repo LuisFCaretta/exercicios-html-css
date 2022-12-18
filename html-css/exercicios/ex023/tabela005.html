@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Tabelas</title>
+		<style>
+			body {
+				font-family: Arial, Helvetica, Sans-Serif;
+			}
+			table {
+				width: 500px;
+				border-collapse: collapse;
+			}
+			caption {
+				font-size: 1.5em;
+				font-weight: bold;
+				padding: 8px;
+			}
+			th, td {
+				border: 1px solid black;
+				padding: 8px;
+			}
+			.cnome {
+				background-color: darkgray;
+			}
+			.cidade, .csexo, .cprof {
+				background-color: lightgray;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Exercicio de tabela</h1>
+		<table>
+			<colgroup>
+				<col class="cnome">
+				<col class="csexo">
+				<col class="cidade">
+				<col class="cprof">
+			</colgroup>
+			<caption>Cadastro</caption>
+			<tr>
+				<th scope="col">Nome</th>
+				<th scope="col">Sexo</th>
+				<th scope="col">Idade</th>
+				<th scope="col">Profissão</th>
+			</tr>
+			<tr>
+				<td>Ana Maria</td>
+				<td>F</td>
+				<td>25</td>
+				<td>Jornalista</td>
+			</tr>
+			<tr>
+				<td>Luis Felipe</td>
+				<td>M</td>
+				<td>27</td>
+				<td>Programador</td>
+			</tr>
+			<tr>
+				<td>Marcio Henrique</td>
+				<td>M</td>
+				<td>22</td>
+				<td>Enfermeiro</td>
+			</tr>
+			<tr>
+				<td>Maria Aparecida</td>
+				<td>F</td>
+				<td>48</td>
+				<td>Diarista</td>
+			</tr>
+			<tr>
+				<td>Carlos Alberto</td>
+				<td>M</td>
+				<td>30</td>
+				<td>Motorista</td>
+			</tr>
+			<tr>
+				<td>Juliana Santos</td>
+				<td>F</td>
+				<td>20</td>
+				<td>Influencer</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>
