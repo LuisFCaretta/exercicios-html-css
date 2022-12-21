@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Formulario</title>
+	</head>
+	<body>
+		<h1>Exemplo de formulario</h1>
+		<form action="cadastro.php" method="get" accept-charset="utf-8">
+			<p>
+				<label for="inum">Numero:</label>
+				<input type="range" name="num" id="inum" value="5" min="0" max="10" oninput="ival.innerHTML = Number(inum.value)"/>
+				<output id="ival">5</output>
+			</p>
+			<p>
+				<input type="submit" name="" id="" value="Enviar" />
+				<input type="reset" name="" id="" value="Limpar" />
+			</p>
+		</form>
+	</body>
+</html>

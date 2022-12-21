@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*  Impressoras */
+
+* {
+	margin: 10px;
+	padding: 10px;
+}
+
+html {
+	font-family: Courier, 'Courier New', Monospace;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+menu {
+	display: none;
+}
+
+article {
+	width: 100%;
+}
+article::after {
+	font-size: 0.8em;
+	content: "Artigo impresso através do site www.example.com";
+}

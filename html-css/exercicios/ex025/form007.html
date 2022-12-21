@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<title>Formularios</title>
+	</head>
+	<body>
+		<h1>Exemplo de formulario</h1>
+		<form action="cadastro.php" method="get" accept-charset="utf-8">
+			<p>
+				<label for="iest">Estado:</label>
+				<select name="estado" id="iest">
+					<option value="" selected>---Escolha---</option>
+					<optgroup label="Estado">
+						<option value="SP">São Paulo</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="BA">Bahia</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PE">Pernambuco</option>
+					</optgroup>
+					<optgroup label="Estado 2">
+						<option value="SP">São Paulo</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="BA">Bahia</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PE">Pernambuco</option>
+					</optgroup>
+				</select>
+			</p>
+			<p>
+				<label for="iprof">Profissão:</label>
+				<input type="text" name="prof" id="iprof" list="lstprof"/>
+				<datalist id="lstprof">
+					<option>Desenvolvedor</option>
+					<option>Professor</option>
+					<option>Cozinheiro</option>
+					<option>Advogado</option>
+					<option>Administrador</option>
+				</datalist>
+			</p>
+			<p>
+				<!--Para text area tambem se utiliza o metodo post.
+				Pois o metodo get tem um limite de 3000b-->
+				<label for="imsg">Mensagem:</label><br />
+				<textarea name="msg" id=imsg rows="8" cols="40"></textarea>
+			</p>
+			<p>
+				<input type="submit" name="" id="" value="Enviar"/>
+				<input type="reset" name="" id="" value="Limpar"/>
+			</p>
+		</form>
+	</body>
+</html>

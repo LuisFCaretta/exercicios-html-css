@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Formulários</title>
+		<style>
+			* {
+				font-family: Arial, Helvetica Sans-Serif;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Meu primeiro formulário</h1>
+		<!--Method padrão: "get",
+			existem dois métodos:
+			"get" e "post"-->
+			
+		<!--Use get para dados não-sensíveis-->
+		<!--Use post para envio de dados sensíveis, imagens...-->
+		<form action="cadastro.php" autocomplete="off">
+			<p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" value="" /></p>
+			<p><label for="isobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="isobrenome" value="" /></p>
+			<input type="submit" name="enviar" id="enviar" value="Enviar" />
+		</form>
+	</body>
+</html>
